@@ -1,10 +1,10 @@
-# PDF Chatbot
+# Research Chatbot
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![TinyLlama](https://img.shields.io/badge/LLM-TinyLlama-orange.svg)](https://github.com/jzhang38/TinyLlama)
 [![FAISS](https://img.shields.io/badge/Search-FAISS-green.svg)](https://github.com/facebookresearch/faiss)
 
-PDF Chatbot is an intelligent document question-answering system that enables natural language queries on PDF documents. It combines the power of TinyLlama-1.1B language model with FAISS similarity search to provide accurate, context-aware responses to questions about document content.
+Research Chatbot is an intelligent document question-answering system that enables natural language queries on PDF documents. It combines the power of TinyLlama-1.1B language model with FAISS similarity search to provide accurate, context-aware responses to questions about document content.
 
 ## Features
 
@@ -18,8 +18,8 @@ PDF Chatbot is an intelligent document question-answering system that enables na
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/PDF-Chatbot.git
-cd PDF-Chatbot
+git clone https://github.com/yourusername/Research_Chatbot.git
+cd Research_Chatbot
 
 # Create and activate virtual environment
 python -m venv venv
@@ -52,7 +52,7 @@ streamlit run app.py
 
 ## Components
 
-- `app.py`: Streamlit web interface for PDF Chatbot
+- `app.py`: Streamlit web interface for Research Chatbot
 - `PDFChatbot.py`: Core implementation of PDF processing and question-answering logic
 - `requirements.txt`: Project dependencies
 
@@ -125,4 +125,4 @@ For detailed requirements, see `requirements.txt`
 
 Faiziab Khan - [@FaiziabKhan](https://www.linkedin.com/in/faiziab-k-1a3a26121/) - faiziabkhan1@gmail.com
 
-Project Link: [https://github.com/Faiziab/PDF-Chatbot.git](PDF-Chatbot)
+Project Link: [https://github.com/Faiziab/Research_Chatbot.git](Research_Chatbot)

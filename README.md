@@ -3,7 +3,7 @@
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![DeepSeek](https://img.shields.io/badge/LLM-DeepSeek_R1-orange.svg)](https://github.com/deepseek-ai)
 [![FAISS](https://img.shields.io/badge/Search-FAISS-green.svg)](https://github.com/facebookresearch/faiss)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 
 Research_Chatbot is an advanced document question-answering system that enables natural language queries on PDF documents. It combines the power of DeepSeek-R1-1.5B language model with FAISS similarity search to provide accurate, context-aware responses to questions about document content.
 

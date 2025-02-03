@@ -1,26 +1,25 @@
-
+# PDF Chatbot
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![DeepSeek](https://img.shields.io/badge/LLM-DeepSeek_R1-orange.svg)](https://github.com/deepseek-ai)
+[![TinyLlama](https://img.shields.io/badge/LLM-TinyLlama-orange.svg)](https://github.com/jzhang38/TinyLlama)
 [![FAISS](https://img.shields.io/badge/Search-FAISS-green.svg)](https://github.com/facebookresearch/faiss)
 
-
-Research_Chatbot is an advanced document question-answering system that enables natural language queries on PDF documents. It combines the power of DeepSeek-R1-1.5B language model with FAISS similarity search to provide accurate, context-aware responses to questions about document content.
+PDF Chatbot is an intelligent document question-answering system that enables natural language queries on PDF documents. It combines the power of TinyLlama-1.1B language model with FAISS similarity search to provide accurate, context-aware responses to questions about document content.
 
 ## Features
 
 - **Semantic Search**: Utilizes FAISS (Facebook AI Similarity Search) for efficient document retrieval
 - **Context-Aware Responses**: Generates answers considering the full context of your documents
 - **PDF Processing**: Robust text extraction and intelligent document chunking
-- **Optimized Performance**: GPU acceleration support and efficient memory management
-- **Interactive Interface**: User-friendly command-line interface for document queries
+- **Interactive Streamlit Interface**: User-friendly web application for document queries
+- **GPU Acceleration**: Supports efficient model inference
 
 ## Installation
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/Research_chatbot.git
-cd Research_chatbot
+git clone https://github.com/yourusername/PDF-Chatbot.git
+cd PDF-Chatbot
 
 # Create and activate virtual environment
 python -m venv venv
@@ -34,11 +33,9 @@ pip install -r requirements.txt
 
 ## Quick Start
 
-```python
-from main import interactive_session
-
-# Start querying your document
-interactive_session("path_to_your_document.pdf")
+```bash
+# Run the Streamlit app
+streamlit run app.py
 ```
 
 ## System Architecture
@@ -55,20 +52,18 @@ interactive_session("path_to_your_document.pdf")
 
 ## Components
 
-- `main.py`: Orchestrates the entire question-answering pipeline
-- `faiss_utils.py`: Handles document indexing and similarity search
-- `model_utils.py`: Manages the DeepSeek LLM for response generation
-- `pdf_utils.py`: Processes PDF documents and extracts text
+- `app.py`: Streamlit web interface for PDF Chatbot
+- `PDFChatbot.py`: Core implementation of PDF processing and question-answering logic
+- `requirements.txt`: Project dependencies
 
 ## Technical Details
 
 ### Language Model
-- **Model**: DeepSeek-R1-1.5B
+- **Model**: TinyLlama-1.1B-Chat-v1.0
 - **Features**: 
   - Half-precision (FP16) inference
   - Automatic device mapping
-  - Optimized beam search
-  - Memory-efficient processing
+  - Low CPU memory usage
 
 ### Vector Search
 - **Engine**: FAISS
@@ -76,41 +71,40 @@ interactive_session("path_to_your_document.pdf")
 - **Features**:
   - Dense vector similarity search
   - Efficient nearest neighbor computation
-  - Scalable document indexing
+
+## Usage
+
+1. Launch the Streamlit application
+2. Upload a PDF file
+3. Ask questions about the document's content
+
+## Usage Example
+
+```
+# In the Streamlit interface
+1. Click on "Upload a PDF" button
+2. Select your PDF file
+3. Type your question in the text input field
+4. Receive context-aware answers
+```
 
 ## Requirements
 
 - Python 3.8+
 - PyTorch
 - Transformers
+- Streamlit
 - FAISS
-- PyMuPDF
 - Sentence Transformers
+- PyPDF2
 
-For detailed requirements, see [requirements.txt](requirements.txt)
-
-## Usage Example
-
-```bash
-$ python main.py
-Enter your question (or type 'quit' to exit): What are the main findings of the paper?
-
-Processing your question...
-1. Extracting text from PDF...
-2. Chunking text...
-3. Creating search index...
-4. Finding relevant passages...
-5. Generating detailed answer...
-
-Answer: [Generated response based on document content]
-```
+For detailed requirements, see `requirements.txt`
 
 ## Performance Optimization
 
 - Utilizes GPU acceleration when available
 - Implements efficient text chunking for large documents
-- Optimizes memory usage through model quantization
-- Employs caching for frequent queries
+- Optimizes memory usage through model selection
 
 ## Contributing
 
@@ -120,15 +114,15 @@ Answer: [Generated response based on document content]
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-
 ## Acknowledgments
 
-- [DeepSeek AI](https://github.com/deepseek-ai) for the language model
+- [TinyLlama](https://github.com/jzhang38/TinyLlama) for the language model
 - [Facebook Research](https://github.com/facebookresearch/faiss) for FAISS
 - [Sentence Transformers](https://github.com/UKPLab/sentence-transformers)
+- [Streamlit](https://streamlit.io/) for the interactive web interface
 
 ## Contact
 
-Your Name - [@FaiziabKhan](https://www.linkedin.com/in/faiziab-k-1a3a26121/) - faiziabkhan1@gmail.com
+Faiziab Khan - [@FaiziabKhan](https://www.linkedin.com/in/faiziab-k-1a3a26121/) - faiziabkhan1@gmail.com
 
-Project Link: [https://github.com/Faiziab/Research_Chatbot.git](Research_Chatbot)
+Project Link: [https://github.com/Faiziab/PDF-Chatbot.git](PDF-Chatbot)

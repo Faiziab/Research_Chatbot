@@ -4,5 +4,7 @@ transformers>=4.34.0
 faiss-cpu>=1.7.4  # Use faiss-gpu if GPU support is needed
 sentence-transformers>=2.2.2
 PyMuPDF>=1.22.5  # For PDF processing (fitz)
+PyPDF2
 numpy>=1.24.0
 tqdm>=4.65.0
+accelerate>=0.26.0

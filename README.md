@@ -7,6 +7,10 @@
 
 Research Chatbot is an intelligent document question-answering system that enables natural language interaction with PDF documents. Built with TinyLlama-1.1B and FAISS similarity search, it provides accurate, context-aware responses to questions about document content. The application features a user-friendly Streamlit interface and is optimized for cloud deployment.
 
+## 🚀 Live Demo
+
+Try the live application: [Research Chatbot Demo](https://researchchatbot-gjrkazswwr89nkmkc2xloq.streamlit.app/)
+
 ## 🌟 Features
 
 - **PDF Processing**: Advanced text extraction and intelligent document chunking

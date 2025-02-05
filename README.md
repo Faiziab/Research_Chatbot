@@ -1,16 +1,3 @@
----
-title: ResearchChatbot
-emoji: 💻
-colorFrom: green
-colorTo: purple
-sdk: streamlit
-sdk_version: 1.42.0
-app_file: app.py
-pinned: false
-short_description: Research Chatbot is an document question-answering chatbot
----
-
-
 # Research Chatbot
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
@@ -22,7 +9,7 @@ Research Chatbot is an intelligent document question-answering system that enabl
 
 ## 🚀 Live Demo
 
-Try the live application: [Research Chatbot Demo](https://researchchatbot-gjrkazswwr89nkmkc2xloq.streamlit.app/)
+Try the live application: [Research Chatbot Demo]([https://researchchatbot-gjrkazswwr89nkmkc2xloq.streamlit.app/](https://huggingface.co/spaces/FaiziK/ResearchChatbot))
 
 ## 🌟 Features
 

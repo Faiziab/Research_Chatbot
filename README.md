@@ -16,9 +16,6 @@ Research Chatbot is an intelligent document question-answering system that enabl
 - **Cloud Ready**: Optimized for deployment on cloud platforms
 - **Memory Efficient**: Optimized for resource-constrained environments
 
-## 🚀 Live Demo
-
-Try the live application: [Research Chatbot Demo](https://your-app-url.streamlit.app)
 
 ## 💻 Installation
 

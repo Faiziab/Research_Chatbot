@@ -9,7 +9,7 @@ Research Chatbot is an intelligent document question-answering system that enabl
 
 ## 🚀 Live Demo
 
-Try the live application:([https://researchchatbot-gjrkazswwr89nkmkc2xloq.streamlit.app/](https://huggingface.co/spaces/FaiziK/ResearchChatbot))
+Try the live application:([Research Chatbot](https://huggingface.co/spaces/FaiziK/ResearchChatbot))
 
 ## 🌟 Features
 

@@ -8,6 +8,10 @@ PyPDF2>=3.0.0
 numpy>=1.24.0
 pymupdf
 
+# Optional but recommended for better performance
+accelerate>=0.24.0
+safetensors>=0.4.0
+bitsandbytes>=0.41.0
 
 # UI and formatting
 rich>=13.0.0

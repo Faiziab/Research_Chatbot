@@ -1,0 +1,22 @@
+# Core dependencies
+streamlit>=1.28.0
+torch>=2.0.0
+transformers>=4.35.0
+sentence-transformers>=2.2.2
+faiss-cpu>=1.7.4
+PyPDF2>=3.0.0
+numpy>=1.24.0
+pymupdf
+
+
+# UI and formatting
+rich>=13.0.0
+
+# Progress bars and spinners
+tqdm>=4.66.1
+
+# Type checking
+typing-extensions>=4.8.0
+
+# Memory optimization
+psutil>=5.9.0
